@@ -20,7 +20,6 @@ def main():
             myList.append(first + 1)
             first = first + 1
         elif first == end:
-            print(myList)
             makeFile(myList)
             break
 
